@@ -1,0 +1,34 @@
+* {
+    list-style-type: none;
+
+    color: rgb(18, 18, 18);
+    font-size: 1rem;
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    overflow-x: hidden;
+
+    background: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+i:hover, button:hover, a:hover {
+    cursor: pointer;
+}
+
+i, a {
+    overflow: hidden;
+}
+
+input {
+    outline: none;
+}

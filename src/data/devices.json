@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Modem",
+        "imgPath": "src/imgs/modem.jpg",
+        "description": "Dispositivo que conecta o seu computador à internet. Trata-se de um modulador e demodulador de frequencia.\nTransforma dados em onda e dps onda em dados.",
+        "link": "https://olhardigital.com.br/2024/02/17/reviews/modem-o-que-e-para-que-serve-e-tipos/"
+    },
+    
+    {
+        "name": "Roteador",
+        "imgPath": "src/imgs/router.jpg",
+        "description": "Dispositivo que recebe e envia dados nas redes de computadores.",
+        "link": "https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/what-is-a-router.html"
+    },
+    
+    {
+        "name": "Switch",
+        "imgPath": "src/imgs/switch.jpg",
+        "description": "Dispositivo de rede que conecta vários computadores dentro de uma rede local (LAN) para que compartilhem dados.",
+        "link": "https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/network-switch-how.html#~introdu%C3%A7%C3%A3o"
+    },
+    
+    {
+        "name": "Firewall",
+        "imgPath": "src/imgs/firewall.jpg",
+        "description": "Dispositivo de segurança de rede que monitora e controla o tráfego de rede. Fica entre a rede e a interet a fim de impedir possíveis ameaças",
+        "link": "https://www.cloudflare.com/pt-br/learning/security/what-is-a-firewall/"
+    },
+    
+    {
+        "name": "Ponto de Acesso",
+        "imgPath": "src/imgs/access_point.jpg",
+        "description": "Dispositivo que permite aos dispositivos sem fio se conectarem a uma rede cabeada.",
+        "link": "https://www.cisco.com/c/pt_br/solutions/small-business/resource-center/networking/what-is-access-point.html"
+    }
+]

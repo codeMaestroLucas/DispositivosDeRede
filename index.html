@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/1bc22c6dce.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <!-- END-FONTS -->
+
+    <link rel="stylesheet" href="src/style/fonts.css"/>
+    <link rel="stylesheet" href="src/style/colors.css"/>
+    <link rel="stylesheet" href="src/style/reset.css"/>
+    <link rel="stylesheet" href="src/style/style.css"/>
+    
+    <link rel="shortcut icon" href="src/imgs/web-favicon.png" type="image/x-icon">
+
+    <title>Dispositivos de Rede</title>
+  </head>
+  <body>
+
+
+    <header class="header">
+
+        <div class="presentation">
+          <div class="title-div">
+            <h1 class="title barlow-bold">Dispositivos <span>de Rede</span></h1>
+          </div>
+
+          <div class="text-presentation">
+            <p class="rubik-regular paragraph intro-p">
+              Uma página simples sobre alguns dos dispositivos de rede para me ajudar
+              a gravar esse assunto.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="search">
+            <input type="text" class="search-input" id="search-input" placeholder="Pesquisa ">
+            <button class="search-button" id="search-button">
+                <i class="fas fa-search search-icon"></i>
+            </button>
+        </div>
+
+    </header>
+    
+    <main class="main">
+      <section class="devices" id="section"></section>
+        <!-- Adding elements in JS -->
+      </section>
+
+      <section class="form-section">
+        <h2 class="form-title barlow-bold">Adicionar <span>Novo</span> Dispositivo</h2>
+        
+        <form id="add-device-form" class="device-form">
+
+          <div class="form-group">
+            <label class="rubik-regular" for="form-name">1.</label>
+            <input type="text" id="form-name" class="form-input rubik-regular" placeholder="Nome do Dispositivo" required />
+          </div>
+        
+          <div class="form-group">
+            <label class="rubik-regular" for="form-img">2.</label>
+            <input type="file" accept="image/jpeg, image/png" id="form-img" class="form-input rubik-regular" >
+          </div>
+        
+          <div class="form-group">
+            <label class="rubik-regular" for="form-description">3.</label>
+            <textarea id="form-description" class="form-input rubik-regular" placeholder="Insira uma descrição" required></textarea>
+          </div>
+        
+          <div class="form-group">
+            <label class="rubik-regular" for="form-link">4.</label>
+            <input type="url" id="form-link" class="form-input rubik-regular" placeholder="Link" required />
+          </div>
+        
+          <div class="btns">
+            <button type="submit" class="confirm-opt">
+              <i class="fa-solid fa-check"></i>
+            </button>
+            
+            <button type="reset" class="cancel-opt">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          </form>
+      </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+      <h2 class="about barlow-semibold">Contatos</h2>
+
+        <div class="github">
+          <a target="_blank" href="https://github.com/codeMaestroLucas">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="linkedin">
+          <a target="_blank" href="https://www.linkedin.com/in/lucas-samuel-64846a253/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        
+    </footer>
+  </body>
+
+
+  <script src="src/js/data.js"></script>
+  <!-- LOAD the data -->
+  <script src="src/js/search.js"></script>
+  <script src="src/js/create.js"></script>
+
+</html>
